@@ -37,7 +37,7 @@ public class testEAN13 {
 
     public static void  testEanVerificaCodiceVuoto(){
         ean.setCodice("3614273613422");
-        assertThrows(NullPointerException.class,()ean.verificaCodice());
+        assertThrows(NullPointerException.class,() -> ean.verificaCodice());
 
     }
 
